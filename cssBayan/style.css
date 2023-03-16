@@ -99,6 +99,12 @@ body {
 }
 
 @media (hover: hover) {
+  .accardion-btn {
+    opacity: 0;
+  }
+  .accardion:hover .accardion-btn {
+    opacity: 1;
+  }
   .accardion-item:hover .accardion-btn,
   .accardion-item:hover .accardion-title {
     color: blueviolet;
