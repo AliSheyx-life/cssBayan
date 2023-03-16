@@ -4,7 +4,65 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Css Bayan</title>
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <h2 class="title">CSS Bayan</h2>
+        <div class="accardion">
+          <!-- item -->
+          <div class="accardion-item">
+            <input type="radio" id="bayan_1" class="radio-input" />
+            <label for="bayan_1">
+              <div class="accardion-header">
+                <h3 class="accardion-title">
+                  You can't just copy and paste CSS
+                </h3>
+                <button class="accardion-btn">
+                  <i class="fas fa-plus"></i>
+                </button>
+              </div>
+              <div class="accardion-body">
+                <div class="image-wrapper">
+                  <img
+                    src="https://cdn.rs.school/sloths/cleaned/what-is-it.svg"
+                    alt="image"
+                  />
+                </div>
+              </div>
+            </label>
+          </div>
+          <!-- item -->
+          <div class="accardion-item">
+            <input type="radio" id="bayan_2" class="radio-input" />
+            <label for="bayan_2">
+              <div class="accardion-header">
+                <h3 class="accardion-title">Become CSS Ninja</h3>
+                <button class="accardion-btn">
+                  <i class="fas fa-plus"></i>
+                </button>
+              </div>
+              <div class="accardion-body">
+                <div class="image-wrapper">
+                  <img
+                    src="https://cdn.rs.school/sloths/cleaned/codewars.svg"
+                    alt="image"
+                  />
+                </div>
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
